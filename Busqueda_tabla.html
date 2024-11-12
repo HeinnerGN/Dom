@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Búsqueda en Tabla</title>
+        <link rel="stylesheet" href="Busqueda_tabla.css">
+        <script src="Busqueda_tabla.js"></script>
+</head>
+<body>
+    <h1>Búsqueda en Tabla</h1>
+    <form id="formBusqueda">
+        <label for="terminoBusqueda">Buscar: </label>
+        <input type="text" id="terminoBusqueda" placeholder="Introduce un término">
+        <button type="button" onclick="buscar()">Buscar</button>
+    </form>
+    <div id="resultado"></div>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Palabra</th>
+                <th>Definición</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Es el lenguaje de marcado utilizado para crear páginas web.</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Es un lenguaje utilizado para dar estilo a las páginas web.</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Es un lenguaje de programación utilizado para crear contenido interactivo en la web.</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Es un lenguaje de programación popular para desarrollo web, ciencia de datos, inteligencia artificial, entre otros.</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Es un lenguaje de programación de propósito general, usado principalmente en aplicaciones empresariales.</td>
+            </tr>
+            <tr>
+                <td>Dom</td>
+                <td>Es una representación estructurada de un documento HTML o XML que permite interactuar con sus elementos a través de JavaScript para modificar su contenido, estructura o estilo.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
