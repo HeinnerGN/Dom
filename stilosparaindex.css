@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/08/genshin-impact-40-3110442.jpg?tf=3840x);
+    background-size: 1600px 1100px;
+    background-repeat: no-repeat;
+}
+.button {
+    width: 200px;
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #e67e22;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    box-shadow: 0px 6px 0px #d35400;
+    transition: all 0.1s;
+  }
+  
+  .button:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+  }
+#id1{
+    display: flex;
+    flex-direction: column;
+    position: relative;left: 670px;
+    top: 320px;
+    gap: 20px;
+}
