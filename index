@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stilosparaindex.css">
+    </head>
+    <body>
+        <div id="id1">
+        <a href="formulario_registro.html"><button class="button">taller1</button> </a>
+        <a href="Agregar_Tareas.html"><button class="button">taller2</button> </a>
+        <a href="Busqueda_tabla.html"><button class="button">taller3</button> </a>
+        </div>
+    </body>
+</html>
