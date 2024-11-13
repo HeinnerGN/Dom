@@ -45,16 +45,16 @@
         </div>
     </form>
 
-    <div id="successMessage" class="success"></div>
+    <div id="mensaje" class="success"></div>
 
-    <script src="app.js">
-        document.getElementById('registrationForm').addEventListener('submit', function (event) {
+    <script>
+        document.getElementById('registro').addEventListener('submit', function (event) {
             event.preventDefault();
 
             document.getElementById('nameError').textContent = '';
             document.getElementById('emailError').textContent = '';
             document.getElementById('passwordError').textContent = '';
-            document.getElementById('successMessage').textContent = '';
+            document.getElementById('mensaje').textContent = '';
 
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
@@ -84,7 +84,7 @@
             }
 
             if (isValid) {
-                document.getElementById('successMessage').textContent = 'Formulario enviado correctamente!';
+                document.getElementById('mensaje').textContent = 'Formulario enviado correctamente!';
                 console.log('Formulario válido');
                 console.log('Nombre:', name);
                 console.log('Correo:', email);
